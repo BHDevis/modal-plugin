@@ -21,7 +21,7 @@ function showModal() {
         <button @click="showModal">
             Show modal
         </button>
-        <div>{{_result}}</div>
+        <div>{{ _result }}</div>
         <Modal name="myModal" title="Modal example">
             Some important content here
         </Modal>
